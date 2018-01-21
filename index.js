@@ -12,7 +12,8 @@ function time(){
    s = checkTime(s);
    clock.innerHTML = h + ":" + m + ":" + s;
    clock.style.color = '#' + h + m + s;
-   clock.style.textShadow = "2px 2px 1px #ffffff"; 
+   clock.style.textShadow = "2px 2px 1px #ffffff";
+   msg.style.textShadow = "2px 2px 1px #000000";
    if(h >=0 && h<3){
    	bg.style.backgroundImage = "url('img/midnight.jpg')";
       msg.innerHTML = "Sweet dreams!";
